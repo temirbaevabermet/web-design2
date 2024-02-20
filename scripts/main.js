@@ -5,7 +5,7 @@ let myVariable = 'mmm';
 alert(myVariable);
 const imgElement = document.querySelector("img");
 const img1URL = "images/alatoo-logo.png";
-const img2URL = "images\nature-photo.webp";
+const img2URL = "images/nature-photo.webp";
 function changePhoto(event){
     let current = imgElement.getAttribute("src");
     if(current == img1URL){
