@@ -1,8 +1,15 @@
+let buttonElement = document.querySelector("button");
+buttonElement.onclick = () =>{
+    alert("Can you enter your name?");
+    
+}
+let btn = "OK";
 const myHeading = document.querySelector("h1");
-myHeading.textContent = "Hello World!";
+function changeHeader(){
+    let name = document.getElementById("name").value;
+    myHeading.textContent = "Welecome"+" "+ name+"!";
+}
 
-let myVariable = 'mmm';
-alert(myVariable);
 const imgElement = document.querySelector("img");
 const img1URL = "images/alatoo-logo.png";
 const img2URL = "images/nature-photo.webp";

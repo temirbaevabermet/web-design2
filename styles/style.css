@@ -12,6 +12,9 @@ h1 {
     font-style: normal;
       
 }
+h1{
+    text-align: center;
+}
 
 p,
 li {
